@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """ basic annotation - mixed """
-from typing import Union
+from typing import Union, List
 
-def sum_mixed_list(mxd_lst: list[Union[int, float]]) -> float:
+def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
     """ return float sum of float and int """
-    return float(sum(mxd_lst))
+    return sum(mxd_lst)
